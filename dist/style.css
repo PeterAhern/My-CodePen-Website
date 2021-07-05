@@ -1,0 +1,241 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FFF8DC;
+  color: #6E4808;
+}
+
+.funkylogo {
+  height: auto;
+  width: 4rem;
+  border-radius: 50%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.img-div {
+  position: fixed;
+  top: 0;
+  width:100%;
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+nav {
+  margin-bottom: 12rem;
+  padding-left: 50rem;
+  width: 85%; 
+  background-color: #F9BA4C;
+}
+
+li a {
+    font-size: 2rem;
+    color:black;
+}
+
+nav > ul {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem; 
+  list-style-type:none;
+  font-family: Jazz LET, fantasy;
+  color: black;
+}
+
+.title {
+  height: 8rem;
+  text-align: center;
+  font-size: 4rem;
+  color:#50500B;
+  font-family: Jazz LET, fantasy;
+  padding: 1rem;
+  text-shadow: orange 1px 0 10px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.funkylove {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;  
+  padding: 6rem;
+}
+
+.img-pancake{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto  
+}
+
+.sweet {
+  display: block;
+  margin: 0 auto;
+  max width: 100%;
+  width: 9%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sweet2 {
+  display: block;
+  margin: 0 auto;
+  max width: 100%;
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.funkytitle {
+  text-decoration:underline;
+  font-size: 4rem;
+  text-shadow: yellow 2px 0 10px;
+}
+
+.recipe {
+  padding:5rem;
+  text-align: center; 
+}
+
+.recipe li {
+  font-size: 3.5rem;
+  margin: auto;
+  width: 15%;
+  text-align: left;
+}
+
+.flavours-sec {
+   font-size: 3rem;
+   text-align: center;
+   padding-top:5rem;
+}
+
+.mission {
+  text-align: center;
+}
+
+.submit {
+  background: yellow;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.email-form {
+  text-align: center;
+    font-size: 3rem;
+}
+
+.pics {
+    width: 90%;
+    background: White;
+    display:grid;
+    margin: auto;
+    border: 5px solid #F9BA4C;
+    padding: 5px;
+    height: 14rem;
+    text-align: center;    
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.flavours {
+    font-size: 3rem;
+    width: 60%;
+    background: White;
+    display:grid;
+    margin: auto;
+    border: 5px solid #F9BA4C;
+    padding: 5px;
+    height: 30rem;
+    text-align: center;    
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    text-shadow: black 2px 0 10px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+  .flavours {
+    flex-direction: row;  
+    grid-template-rows: 25% 25% 25% 25% 25% 25% 25% 25%;    
+  }
+}
+
+.p1{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqx9UyWJqcILktcn7GdH5xcIJ_kqhJ22-kXw&usqp=CAU");
+    background-size: cover;     
+}
+
+.p2{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RPksSxIUpaEQMmLKv588r0o67o0rlGJfGw&usqp=CAU");
+    background-size: cover; 
+}
+
+.p3{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0QfU1lMkZ2Cc5kvDW_ukqdEsbwOhLDRpTeA&usqp=CAU");
+    background-size: cover;     
+}
+
+.p4{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbUran2RXRu1v-cLetvoz633JnXnrlHfaig&usqp=CAU");
+    background-size: cover;     
+}
+
+.p5{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotsWcEx36Aj7-lRAjAfWm6pQdMrNJO67jMg&usqp=CAU");
+    background-size: cover;     
+}
+
+.p6{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjPCn75YZ5roRBbWRMa7TFHsLvJY8GskG2Cg&usqp=CAU");
+    background-size: cover;     
+}
+
+.p7{background-image: url("https://i.inews.co.uk/content/uploads/2019/02/best-pancake-toppings.jpg");
+    background-size: cover;     
+}
+
+.p8{background-image: url("https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2017/02/peanut-butter-and-jelly-pancake-stack/x.jpg");
+    background-size: cover;     
+}
+
+.d1{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqx9UyWJqcILktcn7GdH5xcIJ_kqhJ22-kXw&usqp=CAU");
+    background-size: cover;     
+}
+
+.d2{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RPksSxIUpaEQMmLKv588r0o67o0rlGJfGw&usqp=CAU");
+    background-size: cover; 
+}
+
+.d3{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0QfU1lMkZ2Cc5kvDW_ukqdEsbwOhLDRpTeA&usqp=CAU");
+    background-size: cover;     
+}
+
+.d4{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbUran2RXRu1v-cLetvoz633JnXnrlHfaig&usqp=CAU");
+    background-size: cover;     
+}
+
+.d5{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotsWcEx36Aj7-lRAjAfWm6pQdMrNJO67jMg&usqp=CAU");
+    background-size: cover;     
+}
+
+.d6{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjPCn75YZ5roRBbWRMa7TFHsLvJY8GskG2Cg&usqp=CAU");
+    background-size: cover;     
+}
+ 
+.d7{background-image: url("https://i.inews.co.uk/content/uploads/2019/02/best-pancake-toppings.jpg");
+    background-size: cover;     
+}
+
+.d8{background-image: url("https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2017/02/peanut-butter-and-jelly-pancake-stack/x.jpg");
+    background-size: cover;     
+}
